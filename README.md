@@ -1,5 +1,5 @@
 # Simple RPN Calculator
-This is a simple technical qualifier test. A qualified candidate should find this ridiculously easy.
+This is a basic technical qualifier test.
 Candidates should fork the repo and implement the specifications below on the assigned platform. The candidate's repo will be used for evaluation.
 
 # Reverse Polish Notation
@@ -8,7 +8,7 @@ In reverse Polish notation the operators follow their operands; for instance, to
 Despite the name, reverse Polish notation is not exactly the reverse of Polish notation, for the operands of non-commutative operations are still written in the conventional order (e.g. "÷ 6 3" in Polish notation and "6 3 ÷" in reverse Polish both evaluate to 2, whereas "3 6 ÷" in reverse Polish notation would evaluate to ½).
 
 # Notes
-* For the purposes of this evaluation, function comes before form. Don't get so busy with looks that you miss the required functionality. Leave fonts, colors, and pixel pushing until you've' satisfied all the functional requirements.
+* For the purposes of this evaluation, function comes before form. Don't get so busy with looks that you miss the required functionality. Leave fonts, colors, and pixel pushing until you've satisfied all the functional requirements.
 * Be sure to read the 'Requirements' below and implement each as stated.
 * If a requirement is unclear, make a reasonable assumption and clearly state this assumption in the 'Assumptions' section immediately below.
 
