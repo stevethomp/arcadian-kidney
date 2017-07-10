@@ -1,5 +1,5 @@
 # Simple RPN Calculator
-This is a basic technical qualifier test. Your goal is to create Reverse Polish Notation calculator.
+This is a basic technical qualifier test. Your goal is to a create Reverse Polish Notation calculator.
 
 Candidates should fork the repo and implement the specifications below on the assigned platform. The candidate's repo will be used for evaluation.
 
