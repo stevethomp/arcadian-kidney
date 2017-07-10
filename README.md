@@ -1,5 +1,7 @@
 # Simple RPN Calculator
-This is a basic technical qualifier test. Your goal is to a create Reverse Polish Notation calculator.
+This is a basic technical qualifier test. Your goal is to create Reverse Polish Notation calculator.
+
+Feel free to ask for any clarification you need. The goal is not neccessarily to completely finish the task in the allotted time, but to show what you can do and be able to discuss your decisions.
 
 Candidates should fork the repo and implement the specifications below on the assigned platform. The candidate's repo will be used for evaluation.
 
@@ -8,18 +10,16 @@ In reverse Polish notation the operators follow their operands; for instance, to
 
 Despite the name, reverse Polish notation is not exactly the reverse of Polish notation, for the operands of non-commutative operations are still written in the conventional order (e.g. "÷ 6 3" in Polish notation and "6 3 ÷" in reverse Polish both evaluate to 2, whereas "3 6 ÷" in reverse Polish notation would evaluate to ½).
 
-# Layout
-![RPN Layout](rpn_layout.png?raw=true "Layout")
-
 # Requirements
-* Layout as pictured above
+* Layout as pictured
 * Color display portion as shown (Black text on Green background)
 * Clear _(C)_ button Erases memory. Back to start.
 * Reversed Polish Notation number entry
-* Commit your work to the local repo
+
 
 # Input Examples
 Number _(Button)_ --> Result
+
 * _(C)_ --> 0
 * 6, _(Enter)_, 4, _(+)_ --> 10
 * 6, _(Enter)_, 6, _(Enter)_, 3, _(Enter)_, 2, _(‐)_, _(+)_, _(*)_ --> 42
@@ -29,10 +29,13 @@ Number _(Button)_ --> Result
 * 5, _(Enter)_, 4, _(Enter)_, _(‐)_, _(*)_ --> Error
 * _(Enter)_	--> No change
 
-# Bonus (in order of importance)
+# Layout
+![RPN Layout](rpn_layout.png?raw=true)
+
+# Bonus
 * Divide up your work into tasks. Each commit corresponds to a task.
-* Push to your own remote repo on github
+* Use Github's issue tracker to record your tasks, bugs, improvements, etc.
 * Implement the _Input Examples_ above as unit tests
+* Reference the issue tracker task in commit message
 * Make it pretty
 * Add more unit tests
-* Use Github's issue tracker to record your tasks, bugs, improvements, etc.
