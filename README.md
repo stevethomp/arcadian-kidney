@@ -16,6 +16,7 @@ Despite the name, reverse Polish notation is not exactly the reverse of Polish n
 * Color display portion as shown (Black text on Green background)
 * Clear _(C)_ button Erases memory. Back to start.
 * Reversed Polish Notation number entry
+* Commit your work to the local repo
 
 # Input Examples
 Number _(Button)_ --> Result
@@ -30,8 +31,8 @@ Number _(Button)_ --> Result
 
 # Bonus (in order of importance)
 * Divide up your work into tasks. Each commit corresponds to a task.
-* Use Github's issue tracker to record your tasks, bugs, improvements, etc.
+* Push to your own remote repo on github
 * Implement the _Input Examples_ above as unit tests
-* Reference the issue tracker task in commit message
 * Make it pretty
 * Add more unit tests
+* Use Github's issue tracker to record your tasks, bugs, improvements, etc.
